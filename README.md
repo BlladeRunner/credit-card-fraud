@@ -28,10 +28,10 @@ Classic Kaggle credit card fraud dataset:
 > Place `creditcard.csv` in `data/raw/`.
 
 ## Repository Structure
-data/ raw and processed data (ignored by git)
-notebooks/ narrative analysis notebooks
-src/ reusable Python modules (project core)
-reports/ executive summary and figures
+ - data/ raw and processed data (ignored by git)
+ - notebooks/ narrative analysis notebooks
+ - src/ reusable Python modules (project core)
+ - reports/ executive summary and figures
 
 
 ## Method Overview
@@ -68,20 +68,20 @@ pip install -r requirements.txt
 data/raw/creditcard.csv
 
 3. Run notebooks in order:
-notebooks/01_data_understanding.ipynb
-notebooks/02_modeling_thresholding.ipynb
-notebooks/03_error_analysis_business.ipynb
+- `notebooks/01_data_understanding.ipynb`
+- `notebooks/02_modeling_thresholding.ipynb`
+- `notebooks/03_error_analysis_business.ipynb`
 
 ## Deliverables:
-Reusable evaluation and thresholding toolkit in src/
-Three notebooks with a clear analytical narrative
-reports/executive_summary.md with decision-ready conclusions
+- Reusable evaluation and thresholding toolkit in src/
+- Three notebooks with a clear analytical narrative
+- reports/executive_summary.md with decision-ready conclusions
 
 ## Interview Talking Points (90 seconds):
-Why accuracy fails in fraud detection
-Why PR-AUC and precision/recall are more informative
-How the decision threshold was selected using business cost trade-offs
-What patterns were observed in false positives / false negatives
-What would be done next (stronger models, calibration, monitoring)
+- Why accuracy fails in fraud detection
+- Why PR-AUC and precision/recall are more informative
+- How the decision threshold was selected using business cost trade-offs
+- What patterns were observed in false positives / false negatives
+- What would be done next (stronger models, calibration, monitoring)
 
 🔙 [Back to Portfolio](https://github.com/BlladeRunner)
