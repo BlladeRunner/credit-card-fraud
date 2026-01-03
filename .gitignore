@@ -1,0 +1,21 @@
+# data
+data/raw/*
+data/processed/*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+
+# notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# outputs
+reports/figures/*.png
+reports/figures/*.jpg
