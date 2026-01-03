@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection (Deep Project, 2026)
+# Credit Card Fraud Detection (Deep Project)
 
 ## Problem
 Detect fraudulent credit card transactions in an **extremely imbalanced** dataset where fraud is rare.
